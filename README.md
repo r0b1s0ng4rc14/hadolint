@@ -4,11 +4,11 @@ Exemplos simples de como se beneficiar através de boas práticas na criação d
 
 ### Apresentando a ferramenta Hadolint.
 
-Repositório oficial: [hadholint](!https://github.com/hadolint/hadolint)
+Repositório oficial: [hadholint](https://github.com/hadolint/hadolint)
 
 Como a instalação é bem simples, não vou documentar essa parte. Acessando o repositório, você encontrará todos os passos para instalação nos sistemas operacionais (Linux, Mac e Windows).
 
-Vamos lá!
+Vamos lá
 A ideia é ser bem rápido e prático. No diretório de exemplo, criei um Dockerfile não seguindo as boas práticas. A seguir, será descrito o que é e como solucionei através da ferramenta HADOLINT.
 
 
@@ -53,11 +53,11 @@ Para pesquisar qual é o problema, basta acessar o próprio repositório do Hado
 
 Vamos corrigir.
 
-- Correção da versão da imagem: [DL3006](!https://github.com/hadolint/hadolint/wiki/DL3006)
--  Limpeza de cache apt: [DL3009](!https://github.com/hadolint/hadolint/wiki/DL3009)
--  A cada RUN executado, gera-se gera-se uma nova camada, limitando a exclusão de arquivos temporários: [DL3059](!https://github.com/hadolint/hadolint/wiki/DL3059)
-- Limpeza de cache pip: [DL3042](!!https://github.com/hadolint/hadolint/wiki/DL3042)
-- Explicação entre CMD e Entrypoint correção escrita: [DL3025](!https://github.com/hadolint/hadolint/wiki/DL3025)
+- Correção da versão da imagem: [DL3006](https://github.com/hadolint/hadolint/wiki/DL3006)
+-  Limpeza de cache apt: [DL3009](https://github.com/hadolint/hadolint/wiki/DL3009)
+-  A cada RUN executado, gera-se gera-se uma nova camada, limitando a exclusão de arquivos temporários: [DL3059](https://github.com/hadolint/hadolint/wiki/DL3059)
+- Limpeza de cache pip: [DL3042](https://github.com/hadolint/hadolint/wiki/DL3042)
+- Explicação entre CMD e Entrypoint correção escrita: [DL3025](https://github.com/hadolint/hadolint/wiki/DL3025)
 
 #### Correções 
 
