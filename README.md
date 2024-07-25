@@ -53,11 +53,11 @@ Para pesquisar qual é o problema, basta acessar o próprio repositório do Hado
 
 Vamos corrigir.
 
-- Correção da versão da imagem: [DL3006](https://github.com/hadolint/hadolint/wiki/DL3006)
--  Limpeza de cache apt: [DL3009](https://github.com/hadolint/hadolint/wiki/DL3009)
--  A cada RUN executado, gera-se gera-se uma nova camada, limitando a exclusão de arquivos temporários: [DL3059](https://github.com/hadolint/hadolint/wiki/DL3059)
-- Limpeza de cache pip: [DL3042](https://github.com/hadolint/hadolint/wiki/DL3042)
-- Explicação entre CMD e Entrypoint correção escrita: [DL3025](https://github.com/hadolint/hadolint/wiki/DL3025)
+- [DL3006](https://github.com/hadolint/hadolint/wiki/DL3006) Correção da versão da imagem.
+- [DL3009](https://github.com/hadolint/hadolint/wiki/DL3009) Limpeza de cache apt.
+- [DL3059](https://github.com/hadolint/hadolint/wiki/DL3059) A cada RUN executado, gera-se gera-se uma nova camada, limitando a exclusão de arquivos temporários.
+- [DL3042](https://github.com/hadolint/hadolint/wiki/DL3042) Limpeza de cache pip.
+- [DL3025](https://github.com/hadolint/hadolint/wiki/DL3025) Explicação entre CMD e Entrypoint correção escrita.
 
 #### Correções 
 
