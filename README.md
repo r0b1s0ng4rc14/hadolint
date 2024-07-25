@@ -1,6 +1,6 @@
 # Pequenas ações para melhorar suas imagens
 
-Exemplos simples de como se beneficiar através de boas práticas na criação de imagens a serem utilizadas em microserviços.
+Exemplos simples, de como se beneficiar através de boas práticas na criação de imagens a serem utilizadas em microserviços.
 
 ### Apresentando a ferramenta Hadolint.
 
@@ -8,8 +8,9 @@ Repositório oficial: [hadholint](https://github.com/hadolint/hadolint)
 
 Como a instalação é bem simples, não vou documentar essa parte. Acessando o repositório, você encontrará todos os passos para instalação nos sistemas operacionais (Linux, Mac e Windows).
 
-Vamos lá
-A ideia é ser bem rápido e prático. No diretório de exemplo, criei um Dockerfile não seguindo as boas práticas. A seguir, será descrito o que é e como solucionei através da ferramenta HADOLINT.
+Vamos lá, a ideia é ser rápido e prático.
+No diretório de exemplo, criei um Dockerfile não seguindo as boas práticas.
+A seguir, será descrito o que é e como desenvolvi através da ferramenta HADOLINT.
 
 
 #### Exemplo
